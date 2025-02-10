@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class EmailService {
     sendEmail() {
-        return 'Send email';
+        return { response: 'Send email' };
     }
 }
